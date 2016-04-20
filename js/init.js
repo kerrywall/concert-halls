@@ -57,6 +57,7 @@ quiz.engine = function(e) {
 	if (quiz.thisQ <= quiz.quizLength) {
 		$('.q' + quiz.thisQ).show();
 	} else {
+		$('.thanks').show().append(" <a href='http://twitter.com/home?status=Take the concert hall identification quiz! I scored " + quiz.score + " out of " + quiz.quizLength + " http://kerrywall.com/concert-halls via @kerrywall' target='_blank'>Tweet your score</a>.");
 		$('.answers').show();
 		for (i = 0; i <= quiz.quizLength; i++) {
 			$('.a' + i).html("A: <a href='" + quiz.photos[i] + "' target='_blank'>"+ quiz.answers[i] + "</a>");
