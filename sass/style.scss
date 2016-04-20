@@ -17,6 +17,13 @@ h1,h2,h3,h4,h5,h6{
 
 a {
 	color: #000;
+	text-decoration: underline;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+header a {
 	text-decoration: none;
 	&:hover {
 		text-decoration: underline;
@@ -45,6 +52,11 @@ img {
  	.image, ul {
  		@include min-screen(640px) {
  			@include column(6);
+ 		}
+ 	}
+ 	img {
+ 		@include min-screen(640px) {
+ 			transform: rotate(2deg);
  		}
  	}
  	p {
@@ -121,5 +133,6 @@ img {
 }
 
 footer {
-	clear: both;
+	clear: both;	
+	margin-top: 10px;
 }
