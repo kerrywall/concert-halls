@@ -1,0 +1,22 @@
+{
+  "name": "concert-halls",
+  "version": "0.0.0",
+  "description": "A quiz for music geeks.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kerrywall/concert-halls.git"
+  },
+  "author": "Kerry Wall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kerrywall/concert-halls/issues"
+  },
+  "homepage": "https://github.com/kerrywall/concert-halls",
+  "devDependencies": {
+    "gulp-sass": "^2.2.0"
+  }
+}
